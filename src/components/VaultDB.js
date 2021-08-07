@@ -56,7 +56,44 @@ const VaultDB = {
             desc:"",
             link:"https://fs.blog/knowledge-project/"
         }
-     ]
+     ],
+     Lectures:[{
+         name:"",
+         desc:"",
+         link:""
+     },{
+        name:"",
+        desc:"",
+        link:""
+    },{
+        name:"",
+        desc:"",
+        link:""
+    }
+    ]
+    ,
+    Blogs: [
+        {
+            name:"",
+            desc:"",
+            link:""
+        },
+        {
+            name:"",
+            desc:"",
+            link:""
+        },
+        {
+            name:"",
+            desc:"",
+            link:""
+        },
+        {
+            name:"",
+            desc:"",
+            link:""
+        }
+    ]
 
 
 
