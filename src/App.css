@@ -1,15 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&family=Dancing+Script&display=swap');
 body{
   margin: 0;
   padding: 0;
-  background: #2b2d42;
+  background: #F4F7F5;
   box-sizing: border-box;
+
 }
 
+.head-div h1{
+  color:#575A5E;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+.head-div p{
+  font-family: 'Montserrat', sans-serif;
+  color:#575A5E;
+}
 .App {
-  text-align: center;
-  max-width: 600px;
-  
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 42rem;
+  padding: 2.625rem 1.3125rem;
 }
 .resource-list{
-  list-style: none;
+    list-style: none;
+    margin: 20px 0;
+    padding: 1.5rem 0rem;
+
+}
+.btn{
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 2px solid #f1dac4;
+  border-radius: 1rem;
+  font: 1rem;
+  background:transparent;
+  color: #575A5E;
+  font-family: 'Montserrat', sans-serif;
+}
+.btn:hover{
+  background-color: #f1dac4;
+  color: #08090A;
+}
+.res-title{
+color:#575A5E;
+font-size: 2rem;
+padding: 1rem 0.5rem;
+font-family: 'Abril Fatface', cursive;
+}
+
+.res-desc{
+  padding: 0.5rem 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;font-family: 'Montserrat', sans-serif;
+  color: #A7A2A9;
+
+}
+.res-link{
+  padding: 0.5rem 0.5rem;
+}
+li{
+  margin: 2rem 0;
+}
+a{
+  color: #575A5E;
+  text-decoration: none;
+  border: 2px solid #f1dac4;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+  background-color: #f1dac4;
+  color: #08090A;
+}
+footer a{
+ border: none;
+ padding: 0;
+ font-family: 'Dancing Script', cursive;
+ padding: 0.25rem;
+ font-weight: 700;
+ 
+}
+footer{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }

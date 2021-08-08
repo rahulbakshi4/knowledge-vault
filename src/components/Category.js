@@ -5,7 +5,7 @@ import VaultDB from './VaultDB';
 const Category = () => {
 
 
-    const [selectedCategory, setCategory] = useState("Podcasts")
+    const [selectedCategory, setCategory] = useState("Newsletter")
 
     function categoryClickHandler (category){
         setCategory(category)
@@ -16,7 +16,7 @@ const Category = () => {
         <div className="btn-category">
         <div>
         {Object.keys(VaultDB).map((category)=>(
-            <button onClick={()=> categoryClickHandler(category)}>
+            <button className="btn" onClick={()=> categoryClickHandler(category)}>
                 {category}
             </button>
         ))}
@@ -24,11 +24,11 @@ const Category = () => {
         <div>
         <ul className="resource-list">
                 {VaultDB[selectedCategory].map((resource) => (
-                    <li key={resource.name}>{" "}
+                    <li key={resource.name}>
 
-                    <div>{resource.name}</div>
-                    <div>{resource.desc}</div>
-                    <div><a href={resource.link}>Check it out</a></div>
+                    <div className="res-title">{resource.name}</div>
+                    <div className="res-desc">{resource.desc}</div>
+                    <div className="res-link"><a href={resource.link}>{resource.action}</a></div>
                     </li>
                 ))}
             </ul>
