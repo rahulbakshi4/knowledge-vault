@@ -27,7 +27,7 @@ body{
 .resource-list{
     list-style: none;
     margin: 20px 0;
-    padding: 1.5rem 0rem;
+    padding: 1rem 0rem;
 
 }
 .btn{
@@ -36,13 +36,14 @@ body{
   border: 2px solid #f1dac4;
   border-radius: 1rem;
   font: 1rem;
-  background:transparent;
-  color: #575A5E;
+  background-color: #F9EBDF;
+  color: #08090A;
   font-family: 'Montserrat', sans-serif;
 }
 .btn:hover{
-  background-color: #f1dac4;
-  color: #08090A;
+
+  background-color: transparent;
+  color: #575A5E;
 }
 .res-title{
 color:#575A5E;
@@ -53,9 +54,10 @@ font-family: 'Abril Fatface', cursive;
 
 .res-desc{
   padding: 0.5rem 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;font-family: 'Montserrat', sans-serif;
   color: #A7A2A9;
+  line-height: 1.5rem;
 
 }
 .res-link{
@@ -65,16 +67,18 @@ li{
   margin: 2rem 0;
 }
 a{
-  color: #575A5E;
+  
   text-decoration: none;
   border: 2px solid #f1dac4;
   padding: 0.5rem;
   border-radius: 1rem;
+  background-color: #F9EBDF;
+  color: #08090A;
   font-family: 'Montserrat', sans-serif;
 }
 a:hover{
-  background-color: #f1dac4;
-  color: #08090A;
+  background-color: transparent;
+  color: #575A5E;
 }
 footer a{
  border: none;
