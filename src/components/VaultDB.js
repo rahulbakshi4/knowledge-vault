@@ -2,7 +2,7 @@ const VaultDB = {
      Newsletter : [
          {
              name: "tanaypratap's letters",
-             desc: "Tanay is the mentor you always wanted. He wont give up on your neiher he will let you give up. Tanay with his newsletter shares his knowledge, wisdom and experience helping you advance in your career in tech.",
+             desc: "Tanay is the mentor you always wanted. He wont give up on your neiher he will let you give up on yourself. Tanay with his newsletter shares his knowledge, wisdom and experience helping you advance in your career in tech.",
              link: "https://tanaypratap.substack.com",
              action:"Subscribe Now"
          },
@@ -60,7 +60,7 @@ const VaultDB = {
              action:"Listen Now"
          },
          {
-            name:"Sam Harris",
+            name:"Making Sense Podcast",
             desc:"A neuroscientist, philosopher, and best-selling author Sam Harris explores important questions about the human mind, society, and current events in podcast with expert from different domains",
             link:"https://samharris.org/podcast/",
             action:"Listen Now"
@@ -85,7 +85,7 @@ const VaultDB = {
      ],
     Blogs: [
         {
-            name:"Essays By Paul Gramham",
+            name:"Essays By Paul Graham",
             desc:"One of the most famous person of Silicon Valley Paul Graham's essays are goldmine of all the wisdom and knowledge he possesses. His essays will give you perspective of on so many different aspect of your life. Must Read",
             link:"http://www.paulgraham.com/articles.html",
             action:"Read Now"

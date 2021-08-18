@@ -6,6 +6,23 @@ body{
   box-sizing: border-box;
 
 }
+nav ul {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0 1rem;
+  margin: 1rem;
+}
+nav li {
+  padding: 0 0.5rem;
+  font-size: 1.25rem;
+}
+nav a {
+  color: #575A5E;
+  border: none;
+  background: none;
+}
 
 .head-div h1{
   color:#575A5E;
